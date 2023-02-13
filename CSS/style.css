@@ -201,4 +201,6 @@ input,textarea{
 .subfooter{
     text-decoration: none;
     text-align: center;
+    width: auto;
+    place-content: space-between;
 }
