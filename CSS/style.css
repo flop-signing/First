@@ -1,9 +1,3 @@
-/* .bg{
-    background-color: blueviolet;
-    text-align: center;
-    padding: 15px;
-    text-emphasis-color: ;
-} */
 
 :root{
     --primary-color:#007Af3
@@ -19,29 +13,30 @@ body{
     position: sticky;
     padding: 1em;
     top:0;
+    text-decoration: none;
   
 }
+
 .navbar ul{
     display: flex;
    /* place-content: space-between; */
    
    width: 40%;
+   text-decoration: none;
   
 } 
-.navi{
-    position: sticky;
-}
 
 .navbar a{
     color: black;
     font-size: 1em;
     padding: .1em 1em;
-}
-.main-nav ul a{
-    color: black;
-    font-weight: bold;
+    text-decoration: none;
 }
 
+.navbar a:hover{
+    font-weight: bold;
+    color: #006bd6;
+}
 
 .logo{
      text-decoration: none;
@@ -104,7 +99,7 @@ section{
 h1,h2,h3,h4,h5,h6{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 .book-messages{
@@ -193,24 +188,17 @@ input,textarea{
 
 
 .submit-message{
+    
     border-radius: 2em;
+    cursor: pointer;
     background-color: var(--primary-color);
     font-size: 0.9em;
     font-weight: bold;
     color: white;
-    width: 40%;
-    
-    display: inline-block;
-    padding: 0.7em;
-    cursor: pointer;
-}
-
-.foot
-{
-    text-align: center;
-}
-
-.connection{
-    place-content: space-between;
    
+    width: 40%;
+}
+.subfooter{
+    text-decoration: none;
+    text-align: center;
 }
