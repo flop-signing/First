@@ -1,0 +1,219 @@
+/* .bg{
+    background-color: blueviolet;
+    text-align: center;
+    padding: 15px;
+    text-emphasis-color: ;
+} */
+
+:root{
+    --primary-color:#007Af3
+}
+body{
+    background:#F2F2F2;
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar {
+    background: burlywood;
+    position: sticky;
+    padding: 1em;
+    top:0;
+  
+}
+.navbar ul{
+    display: flex;
+   /* place-content: space-between; */
+   
+   width: 40%;
+  
+} 
+.navi{
+    position: sticky;
+}
+
+.navbar a{
+    color: black;
+    font-size: 1em;
+    padding: .1em 1em;
+}
+.main-nav ul a{
+    color: black;
+    font-weight: bold;
+}
+
+
+.logo{
+     text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2em;
+    position: sticky;
+}
+
+nav{
+    /* display: none; */
+    position:fixed; 
+    width: 80%;
+    z-index: 999;
+    right: 0;
+    top:0;
+    height: 100vh;
+    padding: 1em;
+}
+
+
+.container{
+    display: flex;
+    place-content: space-between;
+
+}
+
+a{
+    color: #444444;
+}
+
+ul{
+    list-style-type: none ;
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    padding: 5em 2em;
+}
+
+.subhead{
+    text-align: center;
+}
+
+.heading{
+    text-align: center;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.content
+{
+    background-color: darkslateblue;
+    color: white;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 2em;
+}
+
+.book-messages{
+    display: flex;
+    font-size: 1.2em;
+}
+
+.img{
+    border-radius: 3em;
+    width: 800px;
+    height:400px ;
+    border: 1px solid rebeccapurple;
+}
+.left-col{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0 2em 0 0;
+    
+    
+}
+
+.right-col{
+
+    padding-left: 2em;
+    justify-content: center;
+}
+
+.book-messages{
+    background-color: lightgrey;
+}
+
+.olist
+{
+    font-size: 1.1em;
+    margin-bottom: 1em;
+    margin-left: 2em;
+    position: relative;
+}
+
+.review{
+    background-color: var(--primary-color);
+    color: white;
+}
+.container.review.ul.li{
+    text-align: center;
+    background:#006bd6;
+    padding: 2em 1em;
+    width: 80%;
+    margin: 0 auto 5em auto;
+    border-radius: 1em;
+}
+.container.review.ul.li.img{
+    width: 5em;
+    height: 5em;
+}
+.litem{
+    text-align: center;
+    background:#006bd6;
+    padding: 2em 1em;
+    width: 80%;
+    margin: 0 auto 5em auto;
+    border-radius: 1em;
+}
+
+.item-img
+{
+    width: 5em;
+    height: 5em;
+    border: 5px solid =#a1bcd7;
+    border-radius: 50%;
+    margin-top: -1.3em;
+}
+
+label{
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+input,textarea{
+    width: 60%;
+    padding: 0.8em;
+    margin-bottom: 1em;
+    border-radius: 0.8em;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact-fix{
+   
+}
+
+.submit-message{
+    border-radius: 2em;
+    background-color: var(--primary-color);
+    font-size: 0.9em;
+    font-weight: bold;
+    color: white;
+    width: 40%;
+    
+    display: inline-block;
+    padding: 0.7em;
+    cursor: pointer;
+}
+
+.foot
+{
+    text-align: center;
+}
+
+.connection{
+    place-content: space-between;
+   
+}
